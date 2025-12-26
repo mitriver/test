@@ -17,7 +17,7 @@ public class GraphicEx extends JFrame {
 
         add = new JButton("덧셈");
         label = new JLabel("국어점수 : ");
-        keyIn = new JTextField("점수 입력하세요", 5);
+        keyIn = new JTextField("점수 입력하세요",5);
         checkBox = new JCheckBox();
 
 
