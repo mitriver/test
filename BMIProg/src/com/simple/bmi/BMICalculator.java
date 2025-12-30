@@ -28,7 +28,7 @@ public class BMICalculator extends JFrame {
             }
 
             taResult.append(height + "cm " + weight + "kg" + " BMI 지수 : " + bmi + "\n");
-            taResult.append( "평가표 "+ bmi_"\n");
+            taResult.append( "평가표 "+ bmi_+"\n");
 
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "숫자를 정확히 입력하세요");
